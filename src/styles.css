@@ -9,3 +9,27 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+/*Variables CSS*/
+:root {
+    /* Colors */
+    --primary-color: #3b141c;
+    --secondary-color: #f3961c;
+    --dark-color: #252525;
+    --white-color: #fff;
+    --light-gray-color: #f2f2f2;
+
+    /*Max-Width Predeterminado*/
+    --site-max-width: 1300px;
+}
+::selection {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--white-color);
+}
