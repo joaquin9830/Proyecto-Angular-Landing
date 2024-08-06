@@ -3,8 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/*Importamos fuente de google font*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 
 /*Estilos generales de toda la web*/
 * {
