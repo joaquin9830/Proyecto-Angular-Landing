@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+/*Configuración tailwind CSS*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /*Importamos fuente de google font*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
@@ -12,7 +16,7 @@
 
 /*Variables CSS*/
 :root {
-    /* Colors */
+    /* Colores */
     --primary-color: #3b141c;
     --secondary-color: #f3961c;
     --dark-color: #252525;
@@ -26,6 +30,7 @@
     background-color: var(--secondary-color);
     color: var(--white-color);
 }
+
 html {
     scroll-behavior: smooth;
 }
