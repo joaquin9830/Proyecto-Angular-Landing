@@ -1,20 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 /*Importamos fuente de google font*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*Estilos generales de toda la web*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 /*Variables CSS*/
 :root {
     /* Colores */
-    --primary-color: #b63913;
-    --secondary-color: #FFEEAD;
+    --primary-color: #111010;
+    --secondary-color: #ecbb1a;
     --dark-color: #252525;
     --white-color: #fff;
     --light-gray-color: #f2f2f2;
